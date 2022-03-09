@@ -17,20 +17,20 @@ img {
 
 .container {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .clearfix::after {
     content: "";
-    clear: both;
     display: table;
+    clear: both;
 }
 
 .left {
     float: left;
 }
 
-li {
+ul {
     list-style: none;
 }
 
@@ -103,29 +103,26 @@ a {
 /* NAV */
 nav {
     background-color: #3161e0;
-    width: 100%;
+    height: 60px;
 }
 
 .nav {
-    vertical-align: auto;
+    line-height: 60px;
 }
 
 /* logo a sinistra */
 .col.sx {
-    width: 20%;
-    line-height: 35px;
+    width: 15%;
 }
 
 .col-sx img {
-    width: auto;
-    height: 35px;
+    vertical-align: middle;
 }
 
 /* lista centrale */
 .col-mid {
     width: 70%;
     text-align: center;
-    line-height: 35px;
 }
 
 .col-mid ul li {
@@ -133,15 +130,16 @@ nav {
     color: white;
     font-weight: bold;
     margin: 1em;
+    margin-top: 20px;
 }
 
 /* accedi a destra */
 .col-dx {
-    width: 10%;
-    text-align: center;
+    width: 15%;
+    text-align: right;
     color: white;
     font-weight: bold;
-    line-height: 35px;
+    margin-top: 20px;
 }
 
 /* HEADER */
