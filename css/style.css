@@ -15,6 +15,11 @@ img {
     width: 100%;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -69,17 +74,23 @@ a {
     font-size: 1.3em;
 }
 
+.title {
+    color: black;
+    font-size: 3.5em;
+    margin-bottom: 0.8em;
+}
+
+.text {
+    color: black;
+    font-size: 1.3em;
+}
+
 /* HEADER */
 /* nav */
 nav {
     background-color: #3161e0;
     width: 100%;
     height: 5em;
-}
-
-.container {
-    width: 70%;
-    margin: auto;
 }
 
 .col.sx {
@@ -116,8 +127,8 @@ header {
     height: 70vh;
 }
 
-/* sezione 1 */
-.sez1 {
+/* banner text */
+.jumbo {
     padding: 10em 16em;
     text-align: center;
 }
@@ -125,3 +136,20 @@ header {
 .btn-download {
     margin-top: 2em;
 }
+
+/* sezione 1 */
+.sez1 {
+    padding: 5em;
+}
+
+.col-img {
+    width: 55%;
+    margin: 5%;
+}
+
+.col-text {
+    width: 35%;
+    text-align: left;
+}
+
+/* sezione 2 */
