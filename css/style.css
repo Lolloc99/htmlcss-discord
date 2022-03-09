@@ -85,60 +85,8 @@ a {
     font-size: 1.3em;
 }
 
-/* HEADER */
-/* nav */
-nav {
-    background-color: #3161e0;
-    width: 100%;
-    height: 5em;
-}
-
-.col.sx {
-    width: 20%;
-}
-
-.col-sx img {
-    width: 8em;
-}
-
-.col-mid {
-    width: 70%;
-    text-align: center;
-}
-
-.col-mid ul li {
-    display: inline-block;
-    color: white;
-    font-weight: bold;
-    margin: 1em;
-}
-
-.col-dx {
-    width: 10%;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-
-/* jumbotron */
-header {
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 70vh;
-}
-
-/* banner text */
-.jumbo {
-    padding: 10em 16em;
-    text-align: center;
-}
-
-.btn-download {
-    margin-top: 2em;
-}
-
-/* sezione 1 */
-.sez1 {
+/* Positioning */
+.sez {
     padding: 5em;
 }
 
@@ -152,21 +100,69 @@ header {
     text-align: left;
 }
 
+/* NAV */
+nav {
+    background-color: #3161e0;
+    width: 100%;
+}
+
+.nav {
+    vertical-align: auto;
+}
+
+/* logo a sinistra */
+.col.sx {
+    width: 20%;
+    line-height: 35px;
+}
+
+.col-sx img {
+    width: auto;
+    height: 35px;
+}
+
+/* lista centrale */
+.col-mid {
+    width: 70%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.col-mid ul li {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    margin: 1em;
+}
+
+/* accedi a destra */
+.col-dx {
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+/* HEADER */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+/* banner text */
+.jumbo {
+    padding: 10em 16em;
+    text-align: center;
+}
+
+.btn-download {
+    margin-top: 2em;
+}
+
+/* sezione 1 */
+
 /* sezione 2 */
 .bg-lg {
     background-color: lightgray;
-}
-
-.sez2 {
-    padding: 5em;
-}
-
-.col-text2 {
-    width: 35%;
-    text-align: left;
-}
-
-.col-img2 {
-    width: 55%;
-    margin: 5%;
 }
