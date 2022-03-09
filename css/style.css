@@ -153,3 +153,20 @@ header {
 }
 
 /* sezione 2 */
+.bg-lg {
+    background-color: lightgray;
+}
+
+.sez2 {
+    padding: 5em;
+}
+
+.col-text2 {
+    width: 35%;
+    text-align: left;
+}
+
+.col-img2 {
+    width: 55%;
+    margin: 5%;
+}
