@@ -5,3 +5,41 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
+img {
+    width: 100%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.left {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+.container {
+    background-color: #3161e0;
+    width: 100%;
+}
+.col-sx {
+    width: 20%;
+}
+
+.col-mid {
+    width: 60%;
+}
+
+.col-dx {
+    width: 20%;
+}
+
+/* black btn #23272a */
