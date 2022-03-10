@@ -54,6 +54,13 @@ a {
     border-radius: 50px;
 }
 
+.btn-violet {
+    background-color: #8ea1e1;
+    color: white;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
 .btn-small {
     padding: 0.7em;
 }
@@ -160,7 +167,17 @@ header {
 
 /* sezione 1 */
 
+/* wave */
+.wave img {
+    display: block;
+}
+
+.wave-down img {
+    margin-top: -2px;
+    transform: rotate(180deg);
+}
+
 /* sezione 2 */
-.bg-lg {
+.bg-grey {
     background-color: lightgray;
 }
